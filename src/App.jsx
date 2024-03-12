@@ -1,5 +1,11 @@
+import TestComponent from "./TestComponent";
+
 function App(){
-  return <h1>Hello there</h1>
+  return <div>
+    <h1>Hello there</h1>
+    <TestComponent/>
+  </div>
+  
 }
 
 export default App;
