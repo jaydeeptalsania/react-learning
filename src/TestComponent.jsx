@@ -1,5 +1,5 @@
 function TestComponent (){
-    return <button>Click here</button>
+    return <button>Test button</button>
 }
 
 export default TestComponent;
