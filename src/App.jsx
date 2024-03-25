@@ -1,6 +1,7 @@
 import TestComponent from "./TestComponent";
 import DynamicComponent from "./DynamicComponent";
 import ReusableComponent from "./ReusableComponent";
+import BootstrapElements from "./BootstrapElements";
 
 function App(){
   return <div>
@@ -10,6 +11,7 @@ function App(){
     <ReusableComponent/>
     <ReusableComponent/>
     <ReusableComponent/>
+    <BootstrapElements/>
   </div>
   
 }
