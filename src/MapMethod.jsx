@@ -2,7 +2,7 @@ function MapMethod(){    // instead of 'for loop' use 'map method' to iterate el
  let myItems = ['mouse','keyboard','printer','charger'];
   return(
     <>
-     {myItems.map((item) => <p>{item}</p>)}
+     {myItems.map((item ,index) => <p key={index}>{item}</p>)}
     </>
   )
 }
