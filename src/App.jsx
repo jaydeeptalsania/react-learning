@@ -2,9 +2,10 @@ import TestComponent from "./TestComponent";
 import DynamicComponent from "./DynamicComponent";
 import ReusableComponent from "./ReusableComponent";
 import BootstrapElements from "./BootstrapElements";
+import MapMethod from "./MapMethod";
 
 function App(){
-  return <div>
+  return <>
     <h1>Hello there</h1>
     <TestComponent/>
     <DynamicComponent/>
@@ -12,7 +13,8 @@ function App(){
     <ReusableComponent/>
     <ReusableComponent/>
     <BootstrapElements/>
-  </div>
+    <MapMethod/>
+  </>
   
 }
 
